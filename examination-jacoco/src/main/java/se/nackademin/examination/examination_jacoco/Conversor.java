@@ -10,6 +10,7 @@ public class Conversor {
 	private ArrayList<String> cityConverterArray = new ArrayList<String>();
 	
 	public Conversor() {
+		
 
 	}
 
