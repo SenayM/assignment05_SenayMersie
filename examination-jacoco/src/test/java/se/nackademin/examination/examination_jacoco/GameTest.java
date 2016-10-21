@@ -1,5 +1,4 @@
 package se.nackademin.examination.examination_jacoco;
-
 import static org.junit.Assert.assertEquals;
 
 import java.util.ArrayList;
@@ -9,7 +8,6 @@ import org.junit.Test;
 
 public class GameTest {
 	Game game = new Game();
-	
 	@Test
 	public void testrun() {
 		
@@ -18,7 +16,6 @@ public class GameTest {
 		values.addAll(Arrays.asList("Game", "Rafa", "Silva", "M", "10", "Ethiopian"));
 		game.run(values);
 	}
-
 	@Test
 	public void testMethod1() {
 		int i = game.calculateOutPutBasedOnNames("Rafael", "Silva");
