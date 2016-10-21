@@ -8,6 +8,7 @@ public class ResultsFromInputsTest {
 
 	@Test
 	public void testNameLengthGettersAndSettersMethods() {
+		
 		ResultFromInputs resultsFromInputs = new ResultFromInputs();
 		resultsFromInputs.setResultForNameLenght(10);
 		assertEquals("The result should be 10", resultsFromInputs.getResultForNameLenght(), 10);
